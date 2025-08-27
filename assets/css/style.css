@@ -342,7 +342,7 @@ div.country-selector>div.list>div.item {
 .navbar-nav .nav-item a {
     font-size: 14px;
     line-height: 14px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     color: var(--e-global-color-nav-text) !important;
     transition: all 0.3s ease-in-out;
