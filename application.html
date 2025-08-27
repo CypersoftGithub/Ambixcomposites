@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Applications || Ambix Composites India LLP</title>
+    <!-- /SEO Ultimate -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./assets/logo/Favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/js/bootstrap.min.js">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- StyleSheet link CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+    
+    <style>
+        .application-hero {
+            background: linear-gradient(135deg, var(--e-global-color-very-pale-blue) 0%, var(--e-global-color-light-grayish-cyan) 100%);
+            padding: 120px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .application-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23ffffff" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="%23ffffff" opacity="0.1"/><circle cx="50" cy="10" r="0.5" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            opacity: 0.3;
+        }
+        
+        .application-hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .what-is-gfrp {
+            background: var(--e-global-color-white);
+            padding: 80px 0;
+        }
+        
+        .gfrp-explanation {
+            background: var(--e-global-color-very-pale-blue);
+            padding: 40px;
+            border-radius: 20px;
+            border-left: 5px solid var(--e-global-color-accent);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        
+        .applications-section {
+            background: var(--e-global-color-very-light-gray-white);
+            padding: 80px 0;
+        }
+        
+        .application-card {
+            background: var(--e-global-color-white);
+            border-radius: 15px;
+            padding: 30px 25px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+            border: 2px solid transparent;
+        }
+        
+        .application-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            border-color: var(--e-global-color-accent);
+        }
+        
+        .application-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--e-global-color-very-pale-blue);
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        
+        .application-card:hover .application-icon {
+            background: var(--e-global-color-accent);
+            transform: scale(1.1);
+        }
+        
+        .application-icon i {
+            font-size: 35px;
+            color: var(--e-global-color-secondary);
+            transition: all 0.3s ease;
+        }
+        
+        .application-card:hover .application-icon i {
+            color: var(--e-global-color-white);
+        }
+        
+        .application-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--e-global-color-secondary);
+            margin-bottom: 15px;
+            font-family: "Jost", serif;
+        }
+        
+        .application-description {
+            font-size: 15px;
+            color: var(--e-global-color-text);
+            line-height: 1.6;
+        }
+        
+        .features-section {
+            background: var(--e-global-color-white);
+            padding: 80px 0;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: var(--e-global-color-very-pale-blue);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-item:hover {
+            transform: translateX(10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--e-global-color-accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .feature-icon i {
+            font-size: 25px;
+            color: var(--e-global-color-white);
+        }
+        
+        .feature-content h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--e-global-color-secondary);
+            margin-bottom: 8px;
+            font-family: "Jost", serif;
+        }
+        
+        .feature-content p {
+            font-size: 14px;
+            color: var(--e-global-color-text);
+            margin: 0;
+        }
+        
+        .technical-specs {
+            background: var(--e-global-color-very-light-gray-white);
+            padding: 80px 0;
+        }
+        
+        .specs-table {
+            background: var(--e-global-color-white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        .specs-table th {
+            background: var(--e-global-color-accent);
+            color: var(--e-global-color-white);
+            font-weight: 600;
+            font-family: "Jost", serif;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .specs-table td {
+            padding: 18px 20px;
+            border-bottom: 1px solid var(--e-global-color-light-grayish-cyan);
+            text-align: center;
+        }
+        
+        .specs-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .comparison-section {
+            background: var(--e-global-color-white);
+            padding: 80px 0;
+        }
+        
+        .comparison-table {
+            background: var(--e-global-color-white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        .comparison-table th {
+            padding: 20px;
+            font-weight: 700;
+            font-family: "Jost", serif;
+            color: var(--e-global-color-white);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        
+        .steel-header {
+            background: var(--e-global-color-very-dark-cyan);
+        }
+        
+        .gfrp-header {
+            background: var(--e-global-color-accent);
+        }
+        
+        .comparison-table td {
+            padding: 18px 20px;
+            border-bottom: 1px solid var(--e-global-color-light-grayish-cyan);
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .steel-value {
+            color: var(--e-global-color-very-dark-cyan);
+            font-weight: 600;
+        }
+        
+        .gfrp-value {
+            color: var(--e-global-color-accent);
+            font-weight: 600;
+        }
+        
+        .case-studies {
+            background: var(--e-global-color-very-pale-blue);
+            padding: 80px 0;
+        }
+        
+        .case-study-card {
+            background: var(--e-global-color-white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        
+        .case-study-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        
+        .case-study-image {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .case-study-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.3s ease;
+        }
+        
+        .case-study-card:hover .case-study-image img {
+            transform: scale(1.1);
+        }
+        
+        .case-study-content {
+            padding: 25px;
+        }
+        
+        .case-study-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--e-global-color-secondary);
+            margin-bottom: 15px;
+            font-family: "Jost", serif;
+        }
+        
+        .case-study-description {
+            font-size: 15px;
+            color: var(--e-global-color-text);
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-title h2 {
+            color: var(--e-global-color-secondary);
+            margin-bottom: 20px;
+        }
+        
+        .section-title p {
+            color: var(--e-global-color-text);
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 768px) {
+            .application-hero {
+                padding: 80px 0 60px;
+            }
+            
+            .gfrp-explanation {
+                padding: 30px 20px;
+                margin-top: 30px;
+            }
+            
+            .applications-section,
+            .features-section,
+            .technical-specs,
+            .comparison-section,
+            .case-studies {
+                padding: 60px 0;
+            }
+            
+            .application-card {
+                margin-bottom: 30px;
+            }
+            
+            .feature-item {
+                padding: 15px;
+            }
+            
+            .feature-icon {
+                width: 50px;
+                height: 50px;
+                margin-right: 15px;
+            }
+            
+            .feature-icon i {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <a id="button"></a>
+    
+    <!-- Header -->
+   <div class="sub_banner position-relative">
+        <header class="header header2">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <a class="navbar-brand" href="index.html">
+                        <figure class="logo mb-0"><img src="assets/logo/Logo-white.png" alt="image" class="img-fluid"></figure>
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                             <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="product.html">products</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="application.html">Application</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </div>
+        </header>
+       
+        <!-- Sub banner -->
+        <section class="sub_banner_con position-relative">
+            <figure class="subbanner-leftimage image mb-0">
+                <!-- <img src="./assets/images/update-leftimage.png" class="img-fluid" alt="image"> -->
+            </figure>
+            <figure class="subbanner-rightimage image mb-0">
+                <!-- <img src="./assets/images/about-rightimage.png" class="img-fluid" alt="image"> -->
+            </figure>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 col-md-10 col-12 mx-auto">
+                        <div class="sub_banner_content" data-aos="fade-up">
+                            <h1>Application</h1>
+                            <!-- <p class="text-size-18">We are a leading rebar manufacturer, committed to providing strong, reliable, and high-quality steel for every construction need.</p> -->
+                            <div class="box">
+                                <a href="index.html" class="text-decoration-none">
+                                <span class="mb-0">Home</span>
+                            </a>
+                                <span class="mb-0 slash">/</span>
+                                <span class="mb-0 box_span">Application</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Application Hero Section -->
+    <section class="application-hero">
+        <div class="container">
+            <div class="row align-items-center application-hero-content">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="gfrp-explanation">
+                        <h1>GFRP Rebar Applications</h1>
+                        <p class="lead">Discover the versatile applications and superior performance of Glass Fiber Reinforced Polymer (GFRP) Rebar in modern construction.</p>
+                        <p>GFRP Rebar is revolutionizing the construction industry with its corrosion-resistant properties, making it ideal for structures exposed to harsh environments where traditional steel reinforcement fails.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="assets/images/Application/Main.jpg" alt="GFRP Rebar Applications" class="img-fluid" style="border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is GFRP Rebar Section -->
+    <section class="what-is-gfrp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>What is GFRP Rebar?</h2>
+                        <p>Glass Fiber Reinforced Polymer (GFRP) Rebar is a corrosion-resistant, high-strength alternative to steel reinforcement, ideal for concrete structures exposed to harsh environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section class="applications-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Applications</h2>
+                <p>Explore the diverse range of construction projects where GFRP Rebar excels</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-bridge"></i>
+                        </div>
+                        <h4 class="application-title">Bridges & Highways</h4>
+                        <p class="application-description">Ideal for bridge decks, barriers, and highway structures exposed to de-icing salts and harsh weather conditions.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <h4 class="application-title">Marine & Coastal Structures</h4>
+                        <p class="application-description">Perfect for piers, seawalls, and coastal buildings where saltwater corrosion is a major concern.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-subway"></i>
+                        </div>
+                        <h4 class="application-title">Tunnels & Underground Projects</h4>
+                        <p class="application-description">Excellent for tunnel linings and underground structures where moisture and chemical exposure are challenges.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="250">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h4 class="application-title">Industrial Floors</h4>
+                        <p class="application-description">Superior performance in warehouses, factories, and industrial facilities with chemical exposure.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h4 class="application-title">Water Treatment Plants</h4>
+                        <p class="application-description">Resistant to chlorine, acids, and other chemicals commonly found in water treatment facilities.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="350">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h4 class="application-title">Residential & Commercial Buildings</h4>
+                        <p class="application-description">Long-lasting reinforcement for foundations, walls, and structural elements in modern construction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features & Benefits Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Why Choose GFRP Rebars?</h2>
+                <p>Discover the superior advantages that make GFRP Rebar the smart choice for modern construction</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Corrosion-Resistant</h4>
+                            <p>No rust or deterioration from moisture, chemicals, or salt exposure</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>2x Stronger than Steel (by weight)</h4>
+                            <p>Superior tensile strength with significantly lower weight</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-feather"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Lightweight & Easy to Handle</h4>
+                            <p>One-fourth the weight of steel, reducing labor and equipment costs</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Longer Service Life</h4>
+                            <p>80+ years lifespan compared to 20-30 years for steel</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Non-Conductive & Non-Magnetic</h4>
+                            <p>Ideal for medical facilities, communication centers, and electrical applications</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Cost-Effective in Long Run</h4>
+                            <p>Lower maintenance costs and longer lifespan provide excellent ROI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications Section -->
+    <section class="technical-specs">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Technical Details</h2>
+                <p>Comprehensive specifications of our GFRP Rebar products</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="specs-table">
+                        <table class="table table-borderless mb-0">
+                            <thead>
+                                <tr>
+                                    <th>Property</th>
+                                    <th>Specification</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Tensile Strength</strong></td>
+                                    <td>1000+ MPa (145,000+ psi)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Elastic Modulus</strong></td>
+                                    <td>≥50 GPa (7.25+ Msi)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Diameters Available</strong></td>
+                                    <td>3mm to 25mm</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Standard Lengths</strong></td>
+                                    <td>6m, 12m, or custom lengths</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Color & Surface Coating</strong></td>
+                                    <td>Light beige with ribbed surface for enhanced bonding</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steel vs GFRP Comparison Section -->
+    <section class="comparison-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Steel vs GFRP Rebar</h2>
+                <p>See how GFRP Rebar outperforms traditional steel reinforcement</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="200">
+                    <div class="comparison-table">
+                        <table class="table table-borderless mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="gfrp-header">Feature</th>
+                                    <th class="steel-header">Steel Rebar</th>
+                                    <th class="gfrp-header">GFRP Rebar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Corrosion</strong></td>
+                                    <td class="steel-value">Yes</td>
+                                    <td class="gfrp-value">No</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Weight</strong></td>
+                                    <td class="steel-value">Heavy</td>
+                                    <td class="gfrp-value">4x Lighter</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Conductivity</strong></td>
+                                    <td class="steel-value">Conductive</td>
+                                    <td class="gfrp-value">Non-Conductive</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Lifespan</strong></td>
+                                    <td class="steel-value">20–30 years</td>
+                                    <td class="gfrp-value">80+ years</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Maintenance</strong></td>
+                                    <td class="steel-value">Regular required</td>
+                                    <td class="gfrp-value">Minimal</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Environmental Impact</strong></td>
+                                    <td class="steel-value">High carbon footprint</td>
+                                    <td class="gfrp-value">Eco-friendly</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="case-studies">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Trusted in Major Projects</h2>
+                <p>See how GFRP Rebar is being used in real-world construction projects</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="assets/images/Application/1.jpg" alt="Marine Construction Project">
+                        </div>
+                        <div class="case-study-content">
+                            <h4 class="case-study-title">Coastal Bridge Project</h4>
+                            <p class="case-study-description">Major bridge construction using GFRP rebar for corrosion resistance in saltwater environment. Project completed 2023.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="assets/images/Application/2.jpg" alt="Industrial Facility">
+                        </div>
+                        <div class="case-study-content">
+                            <h4 class="case-study-title">Chemical Plant Foundation</h4>
+                            <p class="case-study-description">Industrial facility using GFRP rebar for chemical resistance. Zero maintenance required since installation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="assets/images/Application/3.jpg" alt="Residential Complex">
+                        </div>
+                        <div class="case-study-content">
+                            <h4 class="case-study-title">High-Rise Residential Complex</h4>
+                            <p class="case-study-description">Modern residential building using GFRP rebar for long-term durability and reduced maintenance costs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+       <section class="footer-con position-relative">
+        <div class="container">
+            <div class="middle_portion">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="logo-content">
+                            <a href="./index.html">
+                                <figure class="footer-logo">
+                                    <img src="./assets/logo/Logo-white.png" alt="image" class="img-fluid" style="width: 150px;" >
+                                </figure>
+                            </a>
+                            <p class="text-size-14 text">At Ambixcomposites, we stand for quality steel, honest service, and customer trust. Every bar we produce is tested, certified, and ready to strengthen the future of construction.
+                            </p>
+                            <ul class="list-unstyled mb-0 social-icons">
+                                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61578855676847" class="text-decoration-none"><i class="fa-brands fa-facebook-f social-networks"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/ambixcomposites/" class="text-decoration-none"><i class="fa-brands fa-instagram social-networks"></i></a></li>
+                                <li><a target="_blank" href="https://x.com/AmbixComposites" class="text-decoration-none"><i class="fa-brands fa-x-twitter social-networks"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="links">
+                            <h3 class="heading">Navigation</h3>
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fa-solid fa-angle-right"></i><a href="index.html">Home</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="about.html">About</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="product.html">Product</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="application.html">Application</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
+                        <div class="use-link links">
+                            <h3 class="heading">Support</h3>
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fa-solid fa-angle-right"></i><a href="term-of-use.html">Term of use</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="privacy-policy.html">Privacy policy</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="cookie-policy.html">Cookie policy</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="single-blog.html">Latest Posts</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="contact.html">Care Guide</a></li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="icon">
+                            <h3 class="heading">Contact Us</h3>
+                            <ul class="list-unstyled mb-0">
+                                <li class="text">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <a href="https://wa.me/6355614400" class="text-decoration-none">+91 6355614400 </a>
+                                </li>
+                                <br>
+                                <li class="text">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <a href="https://wa.me/9687109226 " class="text-decoration-none">+91 9687109226 </a>
+                                </li>
+                                <br>
+                                <li class="text">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <a href="mailto:info@ambixcomposites.com" class="text-decoration-none">info@ambixcomposites.com</a>
+                                </li>
+                                <li class="text">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <a  class="text-decoration-none address mb-0">Morbi, Gujrat, India
+                                </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="content">
+                    <p class="mb-0">Copyright © 2025 All Rights Reserved by <strong><a href="https://cypersoft.com" target="_blank" class="text-decoration-none">Cypersoft</a></strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- PRE LOADER -->
+    <div class="loader-mask">
+<div class="loader">
+<img src="assets/logo/Logo-white.png" alt="Ambixcomposites Logo" class="loader-logo">
+</div>
+</div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+        <!-- Latest compiled JavaScript -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/back-to-top-button.js"></script>
+    <script src="assets/js/preloader.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/country_dropdown.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/header-scroll.js"></script>
+    
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+        
+        // Back to top button functionality
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 300) {
+                $('#button').fadeIn();
+            } else {
+                $('#button').fadeOut();
+            }
+        });
+        
+        $('#button').click(function() {
+            $('html, body').animate({scrollTop: 0}, 800);
+            return false;
+        });
+    </script>
+</body>
+</html>
