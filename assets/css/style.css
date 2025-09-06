@@ -4925,3 +4925,73 @@ div.country-selector>div.list>div.item {
     outline: none;
     box-shadow: none;
 }
+
+
+
+.get-quote-btn {
+    background-color: #fb704f;
+    color: white !important;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-weight: 600;
+    text-decoration: none !important;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    /* border-radius: 25px; */
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.get-quote-btn:hover {
+    background: #000000 !important;
+    color: white !important;
+}
+
+/* Desktop: Button on right, nav items centered */
+@media (min-width: 992px) {
+    .navbar-collapse {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    
+    .navbar-nav {
+        flex: 1;
+        justify-content: center !important;
+        margin: 0 !important;
+    }
+    
+    .get-quote-btn {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+        order: 2;
+    }
+}
+
+/* Mobile: Button centered, logo left */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        flex-direction: column !important;
+    }
+    
+    .navbar-nav {
+        justify-content: center !important;
+        width: 100%;
+        margin: 15px 0 0 0 !important;
+    }
+    
+    .get-quote-btn {
+        margin: 15px auto 0 auto !important;
+        display: block !important;
+        text-align: center;
+        width: fit-content;
+        order: 3;
+    }
+    
+    .navbar-brand {
+        margin-right: auto;
+    }
+}
