@@ -8,7 +8,7 @@
  *
  * Dual licensed under the MIT and GPL licenses:
  *   http://www.opensource.org/licenses/mit-license.php
- *   http://www.gnu.org/licenses/gpl
+ *   http://www.gnu.org/licenses/gpl.html
  */
 (function(c) {
     c.extend(c.fn, {
@@ -447,12 +447,12 @@
                 var d = this.errorsFor(a);
                 if (d.length) {
                     d.removeClass(this.settings.validClass).addClass(this.settings.errorClass);
-                    d.attr("generated") && d(b)
+                    d.attr("generated") && d.html(b)
                 } else {
                     d = c("<" + this.settings.errorElement + "/>").attr({
                         "for": this.idOrName(a),
                         generated: true
-                    }).addClass(this.settings.errorClass)(b || "");
+                    }).addClass(this.settings.errorClass).html(b || "");
                     if (this.settings.wrapper) d = d.hide().show().wrap("<" + this.settings.wrapper + "/>").parent();
                     this.labelContainer.append(d).length || (this.settings.errorPlacement ? this.settings.errorPlacement(d, c(a)) : d.insertAfter(a))
                 }

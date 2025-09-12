@@ -38,9 +38,9 @@ jQuery(document).ready(function() {
                     success: function(e) {
                         var t = jQuery.parseJSON(e);
                         if (t.status == "Success") {
-                            jQuery("#form_result")('<span class="form-success alert alert-success d-block">' + t.msg + "</span>");
+                            jQuery("#form_result").html('<span class="form-success alert alert-success d-block">' + t.msg + "</span>");
                         } else {
-                            jQuery("#form_result")('<span class="form-error alert alert-danger d-block">' + t.msg + "</span>")
+                            jQuery("#form_result").html('<span class="form-error alert alert-danger d-block">' + t.msg + "</span>")
                         }
                         jQuery("#form_result").show();
                     }
